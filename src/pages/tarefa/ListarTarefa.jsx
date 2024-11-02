@@ -90,7 +90,10 @@ const ListarTarefa = () => {
         />
         <CardContent>
           <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650, border: '1px solid black' }} size="small" aria-label="a dense table">
+            <Table sx={{ 
+                   minWidth: 650, 
+                   border: '1px solid black' 
+              }} size="small" aria-label="a dense table">
               <TableHead>
                 <TableRow>
                   <TableCell>#</TableCell>
